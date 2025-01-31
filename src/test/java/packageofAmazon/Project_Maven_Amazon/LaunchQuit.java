@@ -10,11 +10,12 @@ import org.testng.annotations.BeforeMethod;
 
 public class LaunchQuit 
 {
-	EdgeDriver driver;
+	//EdgeDriver driver;
+	ChromeDriver driver;
 	@BeforeMethod
 	public void launch()
 	{
-		 driver=new EdgeDriver();
+		 driver=new ChromeDriver();
 		 /*ChromeOptions options = new ChromeOptions();
 		 options.addArguments("--incognito");		
 		 ChromeDriver driver = new ChromeDriver(options);*/
